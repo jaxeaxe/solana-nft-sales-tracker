@@ -1,0 +1,10 @@
+[
+    {
+        "name": "myFunc",
+        "private": true
+    },
+    {
+        "name": "myFuncs",
+        "private": true
+    }
+]
