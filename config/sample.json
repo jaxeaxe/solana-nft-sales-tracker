@@ -1,25 +1,26 @@
 {
-  "rpc": "https://solana-api.projectserum.com",
-  "updateAuthority": "4QzYp1UA2qPDwCS7FvwPo7Znc8miZR9FSvk7G6sCQN46",
-  "primaryRoyaltiesAccount": "4QzYp1UA2qPDwCS7FvwPo7Znc8miZR9FSvk7G6sCQN46",
-  "candyMachineId": "8Fdn8A6VBGrxqNBzAff8JUtbMELZ9bdgiDcuoq7Y6wfg",
+  "rpc": "https://api.mainnet-beta.solana.com",
+  "updateAuthority": "D6iDgrJ47S8kmDDnH2epx5dFfYPtJRnhdUjjFBwKbvhw",
+  "primaryRoyaltiesAccount": "C6yVoXypmzHoE1yjZrtSQhGBMJqi3ZeWzjp4jpjJkvfJ",
+  "candyMachineId": "wKBKHgdnkCCbv5UxDTmcSgQuWBQJ4mCSVZLPoD7Sj2U, 7VaaHQyxc1P8BEG9aQLNndYwaP9ngusndeLFUpajH7ZV",
   "marketPlaceInfos": [{
     "name": "DigitalEyes",
     "addresses": ["3iYf9hHQPciwgJ1TCjpRUp1A3QW4AfaK7J6vCmETRMuu"]
   },
   {
     "name": "MagicEden",
-    "addresses": ["2NZukH2TXpcuZP4htiuT8CFxcaQSWzkkR6kepSWnZ24Q"]
+    "addresses": ["2NZukH2TXpcuZP4htiuT8CFxcaQSWzkkR6kepSWnZ24Q",
+      "GUfCR9mK6azb9vcpsxgXyj7XRPAKJd4KMHTTVvtncGgp"]
   }],
   "twitter": {
-    "consumerApiKey": "5vAW***********",
-    "consumerApiSecret": "YecOVT***********",
+    "consumerApiKey": "JFMHE9KVuYNOUw5WfsZtAMyN9",
+    "consumerApiSecret": "8uiYFpPoxBQzL9tp41p7jFTlOmTVjkx1MFojytu65LzKq1XGoT",
     "oauth": {
-      "token": "UjI***********",
-      "secret": "iNA***********"
+      "token": "1406139847023026183-ZRqIVpbFVDHMEafShmHQjFEL7Cw5hn",
+      "secret": "C7IiCiK2AS8cJkqNPo1N9YJhTbVXTIfmT0oKmP2sn2P6g"
     }
   },
   "discord": {
-    "webhookUrl": "https://discord.com/api/webhooks/***********"
+    "webhookUrl": "https://discord.com/api/webhooks/909623386089611264/6HxJu_PqmRnayu7SwhummY9_Lks0NSX3u6EzlbyGM7MoS_Z2zDu_SXkVo4Rb_EONjf1y"
   }
 }

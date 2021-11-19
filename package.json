@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -t es6 src/**/**.ts",
-    "console_run": "node run-script-standalone.js --config='./config/sample.json' --outputType=console",
-    "console_cron": "node cron.js --config='./config/sample.json' --debugMode=true --outputType=console",
+    "console_run": "node run-script-standalone.js --config='./config/sample.json' --outputType=twitter",
+    "console_cron": "node cron.js --config='./config/sample.json' --debugMode=true --outputType=twitter",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

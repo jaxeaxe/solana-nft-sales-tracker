@@ -44,10 +44,10 @@ export default class TwitterHelper {
             status: `
   ${saleInfo.nftInfo.id} purchased for ${saleInfo.saleAmount} S◎L 🐦 
   Marketplaces 📒 
-  → https://digitaleyes.market/collections/Flutter
-  → https://magiceden.io/marketplace?collection_symbol=flutter
+  → https://www.magiceden.io/marketplace/solboxers
+  → https://digitaleyes.market/collections/solboxers
   
-  @FlutterNFT #FlutterNFT #FlutterTogether
+  @SolBoxers #SolBoxers #SKIDDY_WIDDY #NFT #Solana
   
   Explorer: https://explorer.solana.com/tx/${saleInfo.txSignature}
     `

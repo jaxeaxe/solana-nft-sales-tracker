@@ -11,7 +11,7 @@ import _ from 'lodash';
 
 let configPath = yargs(process.argv).argv.config;
 let overrides = yargs(process.argv).argv;
-let outputType = overrides.outputType || 'console';
+let outputType = overrides.outputType || 'twitter';
 
 let config = JSON.parse(fs.readFileSync(configPath).toString());
 config = _.assignIn(config, overrides);
