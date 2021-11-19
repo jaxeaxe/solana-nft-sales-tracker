@@ -16,8 +16,8 @@ let outputType = overrides.outputType || 'twitter';
 let config = JSON.parse(fs.readFileSync(configPath).toString());
 config = _.assignIn(config, overrides);
 
-cron.schedule('0 */3 * * * *', () => {
-  console.log('Running a task every 3rd minute');
+cron.schedule('0 */59 * * * *', () => {
+  console.log('Running a task every 59rd minute');
   let tracker = new SalesTracker(config, outputType);
   tracker.checkSales();
 });
