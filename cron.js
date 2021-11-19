@@ -11,13 +11,13 @@ import _ from 'lodash';
 
 let configPath = yargs(process.argv).argv.config;
 let overrides = yargs(process.argv).argv;
-let outputType = overrides.outputType || 'twitter';
+let outputType = overrides.outputType || 'discord';
 
 let config = JSON.parse(fs.readFileSync(configPath).toString());
 config = _.assignIn(config, overrides);
 
-cron.schedule('0 */3 * * * *', () => {
-  console.log('Running a task every 3rd minute');
+cron.schedule('* */1 * * *', () => {
+  console.log('Running a task every 1 hour');
   let tracker = new SalesTracker(config, outputType);
   tracker.checkSales();
 });
