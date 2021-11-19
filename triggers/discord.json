@@ -1,0 +1,16 @@
+{
+    "id": "6197c66a5eed5334edc83203",
+    "name": "discord",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *"
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "myFuncs"
+            }
+        }
+    }
+}
